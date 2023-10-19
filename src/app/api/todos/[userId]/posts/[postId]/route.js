@@ -1,12 +1,8 @@
 import { NextResponse } from "next/server";
 
-export function GET(reqeust,{params}){
-    console.log(params);
-
-    const {userId,postId} = params;
-    // const {postId} = params;
-
-    console.log("userId: ",userId," postId: ",postId)
-
-    return NextResponse.json(params,{status:203})
+export function GET(request, { params }) {
+  const { userId, postId } = params;
+  console.log("user id ", userId);
+  console.log("post id ", postId);
+  return NextResponse.json(params);
 }

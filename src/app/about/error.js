@@ -3,14 +3,14 @@
 export default function pageError({ error, reset }) {
   return (
     <div>
-      <div>This is error page</div>
+      <h1>Error is coming in about route</h1>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum enim
-        quas nam magnam ipsa officiis, est non suscipit eum temporibus deleniti
-        blanditiis possimus vitae consequuntur libero! Praesentium tenetur
-        laborum enim quibusdam rem. Ea provident laboriosam aut necessitatibus
-        ipsa possimus incidunt sed rerum? Veritatis libero nemo dolore
-        architecto modi laboriosam quisquam!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae
+        temporibus explicabo, assumenda a impedit sunt fuga doloremque velit
+        animi. Impedit aliquid dolorem nulla harum ex enim voluptates. Quos,
+        adipisci. Facilis consectetur tenetur quibusdam magni sint sed eaque
+        mollitia inventore veritatis reiciendis dolore unde, magnam enim
+        voluptas corporis fuga iusto perferendis!
       </p>
     </div>
   );

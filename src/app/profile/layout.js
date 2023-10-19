@@ -1,9 +1,9 @@
-export default function profileLayout({ children }) {
+export default function ProfileLayou({ children }) {
   return (
-    <div className="flex jsutify-between">
-      <div>This is profile Header</div>
-      <div>{children}</div>
-      <div>This is profile Footer</div>
+    <div>
+      {/* <h1> This is profile header</h1> */}
+      {children}
+      {/* <h1>This is profile footer</h1> */}
     </div>
   );
 }
